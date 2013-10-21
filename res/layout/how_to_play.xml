@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="How To Play"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text=" Drunken Challenge"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.61"
+        android:gravity="center_horizontal"
+        android:text="Do you want to play? 
+Then just press Play to start. You will get a challenge and if you succeed, you will drink the lower number. If you fail, well then you must drink the higher number. 
+When you&apos;re done, just press Next Challenge... 
+and it&apos;s your friend&apos;s turn. 
+Remember to record each other during the challenges... and don&apos;t forget to share your videos with your friends!  Enjoy and let the best man/woman win!"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
